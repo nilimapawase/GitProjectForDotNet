@@ -20,10 +20,12 @@ namespace GitProjectForDotNet
             c = a - b;
             Console.WriteLine("Substration is: " + c);
         }
+
         void Mul()
         {
-            int x = 10, y = 20, c;
-            c = x * y;
+            int x = 10, c;
+            int b = 20;
+            c = x * b;
             Console.WriteLine("Multiplication is: " + c);
         }
         static void Main(string[] args)
