@@ -23,8 +23,9 @@ namespace GitProjectForDotNet
 
         void Mul()
         {
-            int a = 10, b = 20, c;
-            c = a * b;
+            int x = 10, c;
+            int b = 20;
+            c = x * b;
             Console.WriteLine("Multiplication is: " + c);
         }
         static void Main(string[] args)
